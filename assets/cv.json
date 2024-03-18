@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Axel Isaac Cejudo Román",
+    "label": "Mobile Flutter Developer",
+    "image": "https://avatars.githubusercontent.com/u/60910680?v=4",
+    "email": "ingedevs@outlook.com",
+    "phone": null,
+    "url": "https://ingedevs.com",
+    "summary": "Ingeniero en Sistemas, Proactivo, Autodidacta y Apasionado por el mundo del desarrollo de aplicaciones móviles híbridas principalmente Flutter.",
+    "location": {
+      "city": "Morelos",
+      "countryCode": "MX",
+      "region": "Mexico"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "axelroman20",
+        "url": "https://linkedin.com/in/axelroman20"
+      },
+      {
+        "network": "GitHub",
+        "username": "ingedevs",
+        "url": "https://github.com/ingedevs"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Mobile Developer & Backend",
+      "position": "NetRabbit SA CV",
+      "url": null,
+      "startDate": "2021-01-01",
+      "endDate": null,
+      "summary": "Actúe como director de un equipo de desarrollo de proyectos app móviles con la tecnología de Flutter, haciendo los deploys a la tiendas de Android e iOS además de los servicios API a servidores con Nodejs y algunas veces usando Firebase dependiendo el proyecto.",
+      "highlights": []
+    },
+    {
+      "name": "Mobile Developer",
+      "position": "Freelancer",
+      "url": null,
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Trabaje en varios proyectos de aplicaciones móviles nativas en Android principalmente arreglando bugs en interfaces además de implementar nuevas funcionalidades acorde a los requerimientos solicitados por el cliente.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad",
+      "area": "Ingeniero de sistemas computacionales",
+      "studyType": "Bachelor",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01"
+    },
+    {
+      "institution": "Preparatoria",
+      "area": "Técnico en computación",
+      "studyType": "High School",
+      "startDate": "2015-01-01",
+      "endDate": "2018-01-01"
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Flutter",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Dart",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Firebase",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Android",
+      "level": "Avanzado"
+    },
+    {
+      "name": "iOS",
+      "level": "Avanzado"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado"
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado"
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado"
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
+      "url": null,
+      "github": null
+    }
+  ]
+}
