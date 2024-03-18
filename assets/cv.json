@@ -114,14 +114,5 @@
   "languages": [],
   "interests": [],
   "references": [],
-  "projects": [
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": null,
-      "github": null
-    }
-  ]
+  "projects": []
 }

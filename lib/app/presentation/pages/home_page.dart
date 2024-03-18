@@ -48,17 +48,11 @@ class _BodyBuilder extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 _Header(basics: resume.basics),
-                const SizedBox(height: defaultPadding * 2),
                 _AboutMe(summary: resume.basics.summary),
-                const SizedBox(height: defaultPadding * 2),
                 _WorkExperience(works: resume.work),
-                const SizedBox(height: defaultPadding * 2),
                 _Education(education: resume.education),
-                const SizedBox(height: defaultPadding * 2),
                 _Projects(projects: resume.projects),
-                const SizedBox(height: defaultPadding * 2),
                 _Skills(skills: resume.skills),
-                const SizedBox(height: defaultPadding * 2),
               ],
             ),
           ),
@@ -81,7 +75,12 @@ class _Skills extends StatelessWidget {
   Widget build(BuildContext context) {
     final style = Theme.of(context).textTheme;
 
+    if (skills.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
     return Container(
+      margin: const EdgeInsets.only(bottom: defaultPadding * 2),
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -117,7 +116,12 @@ class _Projects extends StatelessWidget {
   Widget build(BuildContext context) {
     final style = Theme.of(context).textTheme;
 
+    if (projects.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
     return Container(
+      margin: const EdgeInsets.only(bottom: defaultPadding * 2),
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -164,7 +168,12 @@ class _Education extends StatelessWidget {
   Widget build(BuildContext context) {
     final style = Theme.of(context).textTheme;
 
+    if (education.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
     return Container(
+      margin: const EdgeInsets.only(bottom: defaultPadding * 2),
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -196,7 +205,12 @@ class _WorkExperience extends StatelessWidget {
   Widget build(BuildContext context) {
     final style = Theme.of(context).textTheme;
 
+    if (works.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
     return Container(
+      margin: const EdgeInsets.only(bottom: defaultPadding * 2),
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -229,6 +243,7 @@ class _AboutMe extends StatelessWidget {
     final style = Theme.of(context).textTheme;
 
     return Container(
+      margin: const EdgeInsets.only(bottom: defaultPadding * 2),
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -266,7 +281,10 @@ class _Header extends StatelessWidget {
     final style = Theme.of(context).textTheme;
 
     return Container(
-      margin: const EdgeInsets.only(top: defaultPadding * 2),
+      margin: const EdgeInsets.only(
+        top: defaultPadding * 2,
+        bottom: defaultPadding * 2,
+      ),
       child: Row(
         children: [
           Flexible(
